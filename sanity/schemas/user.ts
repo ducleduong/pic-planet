@@ -15,5 +15,10 @@ export default defineType({
       title: "Image",
       type: "string",
     }),
+    defineField({
+      name: "email",
+      title: "Email",
+      type: "string",
+    }),
   ],
 });
