@@ -4,14 +4,15 @@ import Image from "next/image";
 import { FcGoogle } from "react-icons/fc";
 import { redirect } from "next/navigation";
 import { useSession } from "next-auth/react";
+import React from "react";
 
 const Login = () => {
-  const { data: session } = useSession();
+  const { status } = useSession();
 
-  if (session && session.user) return redirect("/");
+  if (status === "authenticated") return redirect("/");
 
   return (
-    <div className="flex justify-center items-center flex-col h-screen ">
+    <>
       <div className="w-full h-full relative ">
         <video
           src="/share.mp4"
@@ -35,7 +36,7 @@ const Login = () => {
           </button>
         </div>
       </div>
-    </div>
+    </>
   );
 };
 

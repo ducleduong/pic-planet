@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: "#3B82F6",
+        "bg-primary": "#020817",
+        secondary: "#F8FAFC",
+        'primary-border': "#1E293B"
+      },
       margin: {
         320: "320px",
       },
@@ -72,8 +78,8 @@ const config: Config = {
       },
     },
     cursor: {
-      'zoom-in': 'zoom-in',
-      pointer: 'pointer',
+      "zoom-in": "zoom-in",
+      pointer: "pointer",
     },
   },
   plugins: [],
