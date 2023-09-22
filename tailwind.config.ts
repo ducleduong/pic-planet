@@ -12,7 +12,8 @@ const config: Config = {
         primary: "#3B82F6",
         "bg-primary": "#020817",
         secondary: "#F8FAFC",
-        'primary-border': "#1E293B"
+        "primary-border": "#1E293B",
+        "secondary-bg": "#0D2144",
       },
       margin: {
         320: "320px",
