@@ -1,18 +1,17 @@
 <h1 align="center">
   <a
     target="_blank"
-    href="https://mage.ai"
   >
     <img
       align="center"
-      alt="Mage"
+      alt="PicPlanet"
       src="https://github.com/ducleduong/pic-planet/blob/master/public/banner.png?raw=true"
       style="width:100%; margin-bottom: 10px;"
     />
   </a>
   <img
       align="center"
-      alt="Mage"
+      alt="PicPlanet"
       src="https://github.com/ducleduong/pic-planet/blob/master/public/logo-reverse.png?raw=true"
       style="width:100%; margin-bottom: 10px;"
     />
